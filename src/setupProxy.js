@@ -21,7 +21,8 @@ module.exports = function(app) {
 
   // Proxy for Netlify app
   app.use('/netlify-api', createProxyMiddleware({
-    target: 'https://superlative-pony-59485f.netlify.app',
+    // target: 'https://superlative-pony-59485f.netlify.app',
+    target: process.env.REACT_APP_JIRA_API_URL,
     changeOrigin: true,
   }));
 };
