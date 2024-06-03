@@ -1,0 +1,84 @@
+
+   .issue-list-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+ }
+
+
+.filters table {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    font-size: larger;
+  }
+  
+  .filter-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .filter-group select {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+
+  .label-text{
+    font-size: smaller;
+  }
+
+
+  
+  .issue-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .issue-table th, .issue-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .issue-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .page-button.active {
+    background-color: #0056b3;
+  }
+  
+  .page-button:hover {
+    background-color: #0056b3;
+  }
+  
