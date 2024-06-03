@@ -37,7 +37,7 @@ const IssueList = () => {
 
   const indexOfLastIssue = currentPage * issuesPerPage;
   const indexOfFirstIssue = indexOfLastIssue - issuesPerPage;
-  const currentIssues = issues.slice(indexOfFirstIssue, indexOfLastIssue);
+  //const currentIssues = issues.slice(indexOfFirstIssue, indexOfLastIssue);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
