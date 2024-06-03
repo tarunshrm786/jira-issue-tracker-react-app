@@ -15,7 +15,7 @@ const IssueList = () => {
   useEffect(() => {
     const fetchIssues = async () => {
       try {
-        const response = await axios.get('https://tarunshrm768.atlassian.net/api/rest/api/3/search', {
+        const response = await axios.get('/api/rest/api/3/search', {
           auth: {
             username: process.env.REACT_APP_JIRA_USERNAME,
             password: process.env.REACT_APP_JIRA_PASSWORD,
