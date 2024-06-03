@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/rest/api/3/search"
+  to = "https://tarunshrm768.atlassian.net/api/rest/api/3/search"
+  status = 200
+  force = true
