@@ -15,8 +15,6 @@ const IssueList = () => {
 
 useEffect(() => {
     const fetchIssues = async () => {
-        console.log('Jira Username:', process.env.REACT_APP_JIRA_USERNAME);
-      console.log('Jira Password:', process.env.REACT_APP_JIRA_PASSWORD);
       
       try {
         const response = await axios.get('/api/rest/api/3/search', { // Use the proxy path
