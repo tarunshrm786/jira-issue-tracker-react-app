@@ -12,28 +12,6 @@ const IssueList = () => {
   const [assigneeFilter, setAssigneeFilter] = useState('');
   const issuesPerPage = 5;
 
-//   useEffect(() => {
-//     const fetchIssues = async () => {
-//       try {
-//         const response = await axios.get('/api/rest/api/3/search', {
-//           auth: {
-//             username: process.env.REACT_APP_JIRA_USERNAME,
-//             password: process.env.REACT_APP_JIRA_PASSWORD,
-//           },
-//           headers: {
-//             'Content-Type': 'application/json',
-//           },
-//         });
-//         setIssues(response.data.issues);
-//       } catch (err) {
-//         setError(err.message);
-//       } finally {
-//         setLoading(false);
-//       }
-//     };
-
-//     fetchIssues();
-//   }, []);
 
 useEffect(() => {
     const fetchIssues = async () => {
